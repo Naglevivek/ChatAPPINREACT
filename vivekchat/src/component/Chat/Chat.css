@@ -1,0 +1,50 @@
+.chatPage{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatContainer{
+    background-color: white;
+    height: 60%;
+    width: 50%;
+}
+.Header{
+    background-color: crimson;
+    height: 15%;
+}
+.chatBox{
+    border: 0.2vmax solid black;
+    height:70%;
+    box-sizing: border-box;
+}
+.inputBox{
+    border: 0.2vmax solid black;
+    height:20%;
+    box-sizing: border-box;
+    display: flex;
+}
+#chatInput{
+    width: 80%;
+    border: none;
+    padding: 2vmax;
+    background-color: white;
+    box-sizing: border-box;
+    outline:none;
+    font-size: 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sendBtn{
+    background-color: crimson;
+    color: white;
+    border:none;
+    width: 20%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.sendBtn:hover{
+    background-color: rgb(156,13,42);
+}
+
